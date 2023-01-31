@@ -1,6 +1,5 @@
 ﻿# Discordbot
  discord.py 기반 다기능 챗봇입니다.
- 개발중입니다.
 <h2>기능</h2>
 <ul>
  <li>praw API를 통해 Reddit 게시글 스크래핑 및 업로드</li>
