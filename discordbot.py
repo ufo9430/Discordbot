@@ -11,12 +11,12 @@ import datetime
 
 SUB_REDDIT = 'memes'
 LIMIT = 10
-CHANNEL_ID = 1068014975743963226
+CHANNEL_ID = #channel_id
 token = open("token.txt",'r').readline()
 
-r = praw.Reddit(client_id="zduLP8IolptSVsAZjLnN6g",
-                client_secret="Zkrl466hNXuxugFRKvJFznRGKiDpGA",
-                user_agent="discordpy_scraper_by_u/RemoveThin1996",
+r = praw.Reddit(client_id="#client_id",
+                client_secret="#client_secret",
+                user_agent="user_agent",
                 )
 
 app = commands.Bot(command_prefix='/', intents=discord.Intents.all())
